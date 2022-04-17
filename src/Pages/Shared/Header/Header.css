@@ -1,0 +1,14 @@
+.nav-logo {
+    width: 220px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #061a3a;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #ff7c5b;
+}

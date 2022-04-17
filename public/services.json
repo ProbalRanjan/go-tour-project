@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Special Activities",
+        "price": 200,
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "img": "./images/service-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Travel Arrangement",
+        "price": 500,
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "img": "./images/service-2.png"
+    },
+    {
+        "id": 3,
+        "name": "Private Guide",
+        "price": 400,
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "img": "./images/service-3.png"
+    },
+    {
+        "id": 4,
+        "name": "Location Manager",
+        "price": 600,
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "img": "./images/service-4.png"
+    },
+    {
+        "id": 5,
+        "name": "Transportation",
+        "price": 150,
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "img": "./images/service-5.png"
+    },
+    {
+        "id": 6,
+        "name": "Accomandation",
+        "price": 550,
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "img": "./images/service-6.png"
+    }
+]
