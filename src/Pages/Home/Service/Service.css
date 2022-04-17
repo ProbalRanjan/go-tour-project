@@ -1,0 +1,48 @@
+.service {
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* position: relative;
+    padding-bottom: 40px; */
+}
+
+.service img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.service p {
+    text-align: justify;
+
+}
+
+.service button {
+    /* position: absolute;
+    bottom: 0; */
+    background-color: #ff7c5b;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.service button:hover {
+    background-color: #061a3a;
+}
+
+.btn-icon {
+    margin-left: 10px;
+}
+
+.service-price {
+    color: #ff7c5b;
+    font-weight: 600;
+}

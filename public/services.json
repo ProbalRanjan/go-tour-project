@@ -17,7 +17,7 @@
         "id": 3,
         "name": "Private Guide",
         "price": 400,
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "description": "Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
         "img": "./images/service-3.png"
     },
     {
