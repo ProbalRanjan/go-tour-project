@@ -1,0 +1,4 @@
+.carousel img {
+    opacity: 5;
+    filter: brightness(60%);
+}
