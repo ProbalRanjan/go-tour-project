@@ -3,28 +3,28 @@
         "id": "test1",
         "name": "Nicola Joe",
         "title": "Adventure Traveller",
-        "review": "Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "review": "Wow! He always jumped in when I didn't understand something and explained it so that I can now take over with updates. He has let me know that He is thime should I have any questions and for that I am very grateful to him for all him efforts and expertise!",
         "img": "./images/testimonial/testimonial-1.jpg"
     },
     {
         "id": "test2",
         "name": "Jackeline Fernanda",
-        "title": "Photographer",
-        "review": "Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "title": "Photographim",
+        "review": "Very good experience overall, seller took the time to understand the requirements and had the patience to come up with the best solution until I was happy with the final guide.",
         "img": "./images/testimonial/testimonial-2.jpg"
     },
     {
         "id": "test3",
         "name": "Saran Hilton",
         "title": "Professor",
-        "review": "Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "review": "Very professional and gets it right. It has been a pleasure to work with him over the years and we will continue to work with him going forward. He understands the brand.",
         "img": "./images/testimonial/testimonial-3.jpg"
     },
     {
         "id": "test4",
         "name": "Vera Ferminga",
         "title": "Adventure Journalist",
-        "review": "Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "review": "Very responsive and have good design skills. He is friendly and easy to work with. we would definitely continue working with him.",
         "img": "./images/testimonial/testimonial-4.jpg"
     }
 ]

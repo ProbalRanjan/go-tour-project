@@ -3,42 +3,42 @@
         "id": 1,
         "name": "Special Activities",
         "price": 200,
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "description": "Ever wondered if you could jet ski around the Statue of Liberty? The answer is yes, and we are going to tell you how it can be achieved. Besides discussing jet skiing, we'll also discuss why New York City is such a hot spot for it. Throughout the presentation, we will discuss why New York cherishes the Statue of Liberty so much.",
         "img": "./images/service-1.png"
     },
     {
         "id": 2,
         "name": "Travel Arrangement",
         "price": 500,
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "description": "Even though the book was helpful, I didn't exactly know how to plan a trip around the world from the book. Unlike today, there weren't any travel blogs, sharing economy websites, and apps back then. It was an exciting and challenging time for me, but I was lost. It was a learning process, and I was hoping I didn't miss anything.",
         "img": "./images/service-2.png"
     },
     {
         "id": 3,
         "name": "Private Guide",
         "price": 400,
-        "description": "Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "description": "It is much easier to discover new places when we hire private tours rather than driving around countries on our own. We can enjoy wineries and drinks throughout the day rather than watching routes and worrying about directions. Besides having a means of transport to move around large areas, we also have access to a private tour guide who can explain an area's history and culture. We can also carry gear, such as a stroller, snacks, bathing suits and towels, and toys, in the car, so that we can just leave everything in the car as soon as we arrive at a stop for exploration.",
         "img": "./images/service-3.png"
     },
     {
         "id": 4,
         "name": "Location Manager",
         "price": 600,
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "description": "Thanks for sharing this with me, because Wow... there are some businesses that won't allow community films.  It will be MUCH harder in the future to film for them, if not impossible.   Let's protect our community by responsibly producing movies.   We need to partner with local businesses wherever we film.   It will only enhance your production if you respect the relationship.",
         "img": "./images/service-4.png"
     },
     {
         "id": 5,
         "name": "Transportation",
         "price": 150,
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "description": "Our team spends a lot of time reading up on the latest and greatest in the world of transportation and logistics, so we want to honor the industry's best blogs as a way of giving back. Logistics, transportation, temperature-controlled freight, and trucking are all topics covered by thousands of blogs. Having culled our exclusive list down to 50 companies that truly raise the bar, here are the 50 that made the cut.",
         "img": "./images/service-5.png"
     },
     {
         "id": 6,
-        "name": "Accomandation",
+        "name": "Accommodation",
         "price": 550,
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed, faucibus ullamcorper aenean etiam fames mollis. Id sodales rutrum elementum mauris lacinia tellus venenatis velit, urna ligula viverra volutpat cum lacus tristique phasellus varius, lobortis euismod fusce massa pellentesque aliquet at.",
+        "description": "No matter what your accommodation tastes may be, one thing everyone has in common is that no one wants to pay a fortune for it. In fact, one of the best ways to take a cheap holiday is to cut down on accommodation costs. Since you have to stay somewhere every night, reducing this expense can save you a lot of money off the total cost of your trip. Next to finding a cheap flight, finding free or inexpensive lodging will have the biggest impact on your budget.",
         "img": "./images/service-6.png"
     }
 ]

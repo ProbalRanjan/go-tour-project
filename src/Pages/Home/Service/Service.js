@@ -12,7 +12,7 @@ const Service = ({ service }) => {
         <div className='service'>
             <img src={img} alt="" />
             <h3>{name}</h3>
-            <p><small>{description}</small></p>
+            <p><small>{description.slice(0, 250)}...</small></p>
             <p>Starts from <span className='service-price'>${price}</span></p>
             <Link to='/checkout'>Book Now
                 <FontAwesomeIcon className='btn-icon' icon={faPlus} />
