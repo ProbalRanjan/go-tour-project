@@ -6,12 +6,16 @@ import { Link } from 'react-router-dom';
 import { faAt, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
+
+    const today = new Date();
+    const year = today.getFullYear();
+
     return (
         <div className='footer-section'>
             <div className='container footer-container'>
                 <div>
                     <img className='footer-logo' src="images/logo-1.png" alt="" />
-                    <p className='footer-info'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium ab dolorem quisquam, quibusdam harum quo. Cupiditate obcaecati consectetur dolorum!</p>
+                    <p className='footer-info'>Go Tour is world most popular website to make a proper guide the tourist and travelers.</p>
                     <div className='footer-button'>
                         <button>
                             <FontAwesomeIcon icon={faFacebookF} />
@@ -47,6 +51,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <p className='footer-copyright container'>© {year} Go Tour All Rights Reserved.</p>
         </div>
     );
 };

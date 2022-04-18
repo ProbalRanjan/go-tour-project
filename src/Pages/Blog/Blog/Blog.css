@@ -39,7 +39,7 @@
     font-weight: 600;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 472px) {
+@media only screen and (min-width: 0px) and (max-width: 567px) {
 
     .blog h2 {
         font-size: 28px;
