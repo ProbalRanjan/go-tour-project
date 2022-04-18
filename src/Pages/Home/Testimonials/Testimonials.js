@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Testimonial from '../Home/Testimonial/Testimonial';
+import Testimonial from '../Testimonial/Testimonial';
 import './Testimonials.css';
 
 const Testimonials = () => {
@@ -14,7 +14,7 @@ const Testimonials = () => {
 
     return (
         <div className='container my-5'>
-            <h2>Testimonial</h2>
+            <h2 className='section-title'>Testimonial</h2>
             <div className="testimonial-container">
                 {
                     testimonials.map(testimonial => <Testimonial

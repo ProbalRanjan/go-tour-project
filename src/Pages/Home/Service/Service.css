@@ -2,8 +2,6 @@
     padding: 20px;
     border-radius: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    /* position: relative;
-    padding-bottom: 40px; */
 }
 
 .service img {
@@ -24,8 +22,6 @@
 }
 
 .service button {
-    /* position: absolute;
-    bottom: 0; */
     background-color: #ff7c5b;
     border: 0;
     padding: 10px 20px;
@@ -45,4 +41,10 @@
 .service-price {
     color: #ff7c5b;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 567px) {
+    .service h3 {
+        font-size: 24px;
+    }
 }
