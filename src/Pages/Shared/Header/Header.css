@@ -7,11 +7,27 @@
     width: 220px;
 }
 
+.nav-links {
+    align-items: center;
+}
+
 .nav-links a {
     text-decoration: none;
     color: #061a3a;
-    margin-left: 30px;
+    margin-right: 30px;
     font-weight: 600;
+}
+
+.signing-btn {
+    border: 0;
+    background-color: #ff7c5b;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.signing-btn:hover {
+    background-color: #061a3a;
 }
 
 .nav-links a:hover {

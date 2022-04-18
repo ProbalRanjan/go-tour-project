@@ -10,7 +10,7 @@ const Blog = () => {
                     <img src="images/quesnans/qna-1.png" alt="" />
                     <div>
                         <h3> <span>Q1: </span>What are the difference between Authorization vs Authentication?</h3>
-                        <p><span>Ans: </span>
+                        <article><span>Ans: </span>
                             Difference between Authorization vs Authentication are:
                             <ul>
                                 <li>Authorization means what elements a user can access on the website.
@@ -36,14 +36,14 @@ const Blog = () => {
                                     Authentication is visible to and partially changeable by the user.
                                 </li>
                             </ul>
-                        </p>
+                        </article>
                     </div>
                 </div>
                 <div className="ques-ans">
                     <img src="images/quesnans/qna-2.png" alt="" />
                     <div>
                         <h3> <span>Q2: </span>Why are you using firebase? What other options do you have to implement authentication? </h3>
-                        <p><span>Ans: </span>
+                        <article><span>Ans: </span>
                             There has been an exception benefits of using Firebase.There are many advantage of firebase app development.
                             <br />
                             For get some benefits on website authentication, I am using Firebase. Benefits are:
@@ -66,14 +66,14 @@ const Blog = () => {
                             Microsoft,
                             Yahoo,
                             Phone Number
-                        </p>
+                        </article>
                     </div>
                 </div>
                 <div className="ques-ans">
                     <img src="images/quesnans/qna-3.png" alt="" />
                     <div>
                         <h3> <span>Q3: </span>What other services does firebase provide other than authentication?</h3>
-                        <p><span>Ans: </span>Firebase is the world's most popular authentication app. But there are many other option that provides authentication like firebase.
+                        <article><span>Ans: </span>Firebase is the world's most popular authentication app. But there are many other option that provides authentication like firebase.
                             <br />
                             Those are:
                             <ul>
@@ -87,7 +87,7 @@ const Blog = () => {
                                 <li>Nhost</li>
                                 <li>Deployd</li>
                             </ul>
-                        </p>
+                        </article>
                     </div>
                 </div>
             </div>

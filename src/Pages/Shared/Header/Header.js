@@ -34,9 +34,9 @@ const Header = () => {
                             <Link to='/blog'>Blog</Link>
                             {
                                 user ?
-                                    <button onClick={handleSignOut}>Sign Out</button>
+                                    <button className='signing-btn' onClick={handleSignOut}>Sign Out</button>
                                     :
-                                    <Link to='/login'>Sign In</Link>
+                                    <Link className='signing-btn' to='/login'>Sign In</Link>
                             }
                         </Nav>
                     </Navbar.Collapse>
