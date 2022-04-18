@@ -20,6 +20,7 @@ const Header = () => {
                         <Nav className="ms-auto nav-links">
                             <Link to='/'>Home</Link>
                             <Link to='/blog'>Blog</Link>
+                            <Link to='/login'>Sign In</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
