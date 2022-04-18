@@ -1,15 +1,26 @@
 import React, { useState } from 'react';
-import { Button, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Button, Form, Spinner } from 'react-bootstrap';
+import { Link, useNavigate } from 'react-router-dom';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import './Login.css';
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
 
 const Login = () => {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const navigate = useNavigate();
+    // const location = useLocation()
 
+    // const form = location.state?.form?.pathname || '/';
 
+    const [
+        signInWithEmailAndPassword,
+        user,
+        loading,
+        error
+    ] = useSignInWithEmailAndPassword(auth);
 
     const handleEmailBlur = event => {
         setEmail(event.target.value);
@@ -19,7 +30,14 @@ const Login = () => {
         setPassword(event.target.value)
     }
 
+    const handleSignIn = event => {
+        event.preventDefault()
+        signInWithEmailAndPassword(email, password);
+    }
 
+    if (user) {
+        navigate('/');
+    }
 
     return (
         <div className='container my-5 login-container'>
@@ -28,7 +46,7 @@ const Login = () => {
             </div>
             <div className='login-form'>
                 <h3>Sign In</h3>
-                <Form>
+                <Form onSubmit={handleSignIn}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Email</Form.Label>
                         <Form.Control onBlur={handleEmailBlur} type="email" placeholder="Enter email" required />
@@ -39,9 +57,13 @@ const Login = () => {
                         <Form.Control onBlur={handlePasswordBlur} type="password" placeholder="Password" required />
                     </Form.Group>
 
-                    {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <Form.Check type="checkbox" label="Check me out" />
-                    </Form.Group> */}
+                    <p style={{ color: 'red', fontWeight: 600 }}>
+                        {error?.message}
+                    </p>
+
+                    {
+                        loading && <Spinner animation="border" role="status" />
+                    }
 
                     <Button className='d-grid gap-2 col-4 mx-auto' type="submit">
                         Sign In
