@@ -30,6 +30,7 @@ const Header = () => {
                         <Nav className="ms-auto nav-links">
                             <Link to='/'>Home</Link>
                             <Link to='/checkout'>Checkout</Link>
+                            <Link to='/about'>About Me</Link>
                             <Link to='/blog'>Blog</Link>
                             {
                                 user ?

@@ -21,8 +21,9 @@
 
 }
 
-.service button {
+.service a {
     background-color: #ff7c5b;
+    text-decoration: none;
     border: 0;
     padding: 10px 20px;
     border-radius: 20px;
@@ -30,7 +31,7 @@
     font-weight: 600;
 }
 
-.service button:hover {
+.service a:hover {
     background-color: #061a3a;
 }
 

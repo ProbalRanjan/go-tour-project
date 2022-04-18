@@ -27,8 +27,9 @@ const Footer = () => {
                 <div className='footer-titles'>
                     <h3>Quick Links</h3>
                     <Link to='/'>Home</Link>
+                    <Link to='/checkout'>Checkout</Link>
+                    <Link to='/about'>About Me</Link>
                     <Link to='/blog'>Blog</Link>
-
                 </div>
                 <div className='footer-titles'>
                     <h3>Contact Us</h3>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Form, Spinner } from 'react-bootstrap';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import './Login.css';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
@@ -11,9 +11,9 @@ const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
-    // const location = useLocation()
+    const location = useLocation()
 
-    // const form = location.state?.form?.pathname || '/';
+    const form = location.state?.form?.pathname || '/checkout';
 
     const [
         signInWithEmailAndPassword,
@@ -36,7 +36,7 @@ const Login = () => {
     }
 
     if (user) {
-        navigate('/');
+        navigate(form, { replace: true });
     }
 
     return (
