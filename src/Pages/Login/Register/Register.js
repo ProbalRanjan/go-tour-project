@@ -7,7 +7,6 @@ import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
 
-    // const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
@@ -18,10 +17,6 @@ const Register = () => {
         createUserWithEmailAndPassword,
         user
     ] = useCreateUserWithEmailAndPassword(auth);
-
-    /* const handleNameBlur = event => {
-        setName(event.target.value);
-    } */
 
     const handleEmailBlur = event => {
         setEmail(event.target.value);
@@ -49,7 +44,7 @@ const Register = () => {
     }
 
     if (user) {
-        navigate('/')
+        navigate('/checkout')
     }
 
     return (
@@ -60,10 +55,6 @@ const Register = () => {
             <div className='login-form'>
                 <h3>Sign Up</h3>
                 <Form onSubmit={handleSignUp}>
-                    {/* <Form.Group className="mb-3" controlId="formBasicName">
-                        <Form.Label>You Name</Form.Label>
-                        <Form.Control onBlur={handleNameBlur} type="text" placeholder="Enter your name" required />
-                    </Form.Group> */}
 
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Email</Form.Label>

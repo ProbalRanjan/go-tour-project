@@ -27,11 +27,13 @@ const Header = () => {
                     </Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="ms-auto nav-links">
-                            <Link to='/'>Home</Link>
-                            <Link to='/checkout'>Checkout</Link>
-                            <Link to='/about'>About Me</Link>
-                            <Link to='/blog'>Blog</Link>
+                        <Nav className="ms-auto nav">
+                            <div className='nav-links'>
+                                <Link to='/'>Home</Link>
+                                <Link to='/checkout'>Checkout</Link>
+                                <Link to='/about'>About Me</Link>
+                                <Link to='/blog'>Blog</Link>
+                            </div>
                             {
                                 user ?
                                     <button className='signing-btn' onClick={handleSignOut}>Sign Out</button>

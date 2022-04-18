@@ -7,7 +7,7 @@
     width: 220px;
 }
 
-.nav-links {
+.nav {
     align-items: center;
 }
 
@@ -24,10 +24,12 @@
     color: white;
     padding: 5px 20px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .signing-btn:hover {
     background-color: #061a3a;
+    color: white;
 }
 
 .nav-links a:hover {

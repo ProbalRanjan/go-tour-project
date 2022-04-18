@@ -1,13 +1,22 @@
 import { faFacebookF, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import './SocialLogin.css';
 
 const SocialLogin = () => {
 
-    const [signInWithGoogle] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, user] = useSignInWithGoogle(auth);
+
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (user) {
+            navigate("/checkout")
+        }
+    }, [user]);
 
     return (
         <div>
