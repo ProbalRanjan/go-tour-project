@@ -11,10 +11,14 @@
     align-items: center;
 }
 
+.nav-links {
+    display: flex;
+}
+
 .nav-links a {
     text-decoration: none;
     color: #061a3a;
-    margin-right: 30px;
+    margin-right: 10px;
     font-weight: 600;
 }
 
@@ -34,4 +38,12 @@
 
 .nav-links a:hover {
     color: #ff7c5b;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 567px) {
+    .nav-links {
+        display: block;
+        text-align: center;
+    }
 }

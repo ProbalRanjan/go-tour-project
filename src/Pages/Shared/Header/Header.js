@@ -29,10 +29,18 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto nav">
                             <div className='nav-links'>
-                                <Link to='/'>Home</Link>
-                                <Link to='/checkout'>Checkout</Link>
-                                <Link to='/about'>About Me</Link>
-                                <Link to='/blog'>Blog</Link>
+                                <Nav.Link>
+                                    <Link to='/'>Home</Link>
+                                </Nav.Link>
+                                <Nav.Link>
+                                    <Link to='/checkout'>Checkout</Link>
+                                </Nav.Link>
+                                <Nav.Link>
+                                    <Link to='/about'>About Me</Link>
+                                </Nav.Link>
+                                <Nav.Link>
+                                    <Link to='/blog'>Blog</Link>
+                                </Nav.Link>
                             </div>
                             {
                                 user ?
