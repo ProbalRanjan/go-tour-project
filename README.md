@@ -1,46 +1,35 @@
 # GO TOUR Project
 
-World most trusted travel guid solution.
+World most trusted travel guid solution. We are here to give you a proper guideline about tourist place and activities of the world. [Please Visit Our Website](https://go-tour-project.web.app) to book complete guideline for travel.
 
-## Our Website
+## Our Website Link
 
-Please visit us to book complete guideline for travel [Go Tour](https://github.com/facebook/create-react-app). 
+[https://go-tour-project.web.app](https://go-tour-project.web.app). 
 
-### `npm start`
+## `Features of Website ------`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* In my [Home](https://go-tour-project.web.app) page you can see the our carousel banner to display some special moments with clients. As you can see the services section at the bottom of the banner. You can book me by clicking the button. Just fill up a simple form on checkout page. Also our testimonial.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Checkout](https://go-tour-project.web.app/checkout) page is only for my customers who can book my services by signing up on my website. Here is just a simple form. 
 
-### `npm test`
+* To know about myself you have to go [About](https://go-tour-project.web.app/about) page. Here I describe myself about me and my goal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Blog](https://go-tour-project.web.app/blog) page is just some QnA page about Authorization vs Authentication, and other authentication questions.
 
-### `npm run build`
+* You can sign up and sign in on our website on [Login](https://go-tour-project.web.app/login) page. Here you can toggle both sign in and sign up in the same page. Also have the option for sign in through social media.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## `Technologies that use for the Website ------`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**The list of library and framework for the website are --**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* React Library.
+* React Bootstrap.
+* Google Firebase.
+* React Firebase Hooks.
+* React Router.
+* Vanilla CSS.
+* JSX.
+* Fontawesome.
+* Google Fonts.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Projects Description
-
-Go Tour is the most popular travel guideline maker for tourist and traveler. Their services are affordable pricing and have most talented guide.
-
-### Code Splitting
+### Thank You.
