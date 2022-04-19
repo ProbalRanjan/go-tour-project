@@ -1,12 +1,8 @@
-.blog {
-    padding-bottom: 50px;
-}
-
 .blog h2 {
-    font-size: 36px;
-    font-weight: 600;
     text-align: center;
     color: #ff7c5b;
+    font-size: 36px;
+    font-weight: 800;
     padding-bottom: 20px;
 }
 

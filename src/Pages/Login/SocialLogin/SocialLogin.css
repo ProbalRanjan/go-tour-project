@@ -1,5 +1,31 @@
+.social-media {
+    margin-top: 40px;
+}
+
+.social-media p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .social-icons button {
-    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-right: 30px;
     color: white;
-    margin: 10px;
+    background-color: #ff7c5b;
+}
+
+.social-icons button:hover {
+    background-color: #061a3a;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 567px) {
+    .social-icons button {
+        width: 100%;
+        margin-top: 20px;
+    }
 }

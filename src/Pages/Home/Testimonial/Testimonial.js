@@ -11,7 +11,7 @@ const Testimonial = ({ testimonial }) => {
         <div className='testimonial'>
             <img src={img} alt="" />
             <h3>{name}</h3>
-            <p>{title}</p>
+            <p style={{ color: "#061a3a" }}>{title}</p>
             <FontAwesomeIcon className='testimonial-icon' icon={faQuoteRight} />
             <p><small>{review}</small></p>
         </div>

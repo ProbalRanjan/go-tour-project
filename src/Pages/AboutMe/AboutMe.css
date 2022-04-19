@@ -6,11 +6,11 @@
 }
 
 .about-title {
-    font-size: 36px;
-    font-weight: 600;
-    color: #ff7c5b;
-    padding-bottom: 20px;
     text-align: center;
+    color: #ff7c5b;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 20px;
 }
 
 .about-name {
@@ -21,6 +21,7 @@
 
 .about-me h4 {
     color: #061a3a;
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 567px) {
@@ -30,5 +31,14 @@
 
     .about-me img {
         width: 100%;
+    }
+
+    .about-title {
+        padding-bottom: 10px;
+    }
+
+    .about-name {
+        font-size: 34px;
+        text-align: center;
     }
 }

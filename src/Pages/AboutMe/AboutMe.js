@@ -6,7 +6,7 @@ import './AboutMe.css';
 const AboutMe = () => {
     return (
         <div className='container my-5'>
-            <h2 className='about-title'>About Me</h2>
+            <h2 className='about-title'>ABOUT ME</h2>
             <div className="about-me">
                 <img src="images/about/about-me.png" alt="" />
                 <div>

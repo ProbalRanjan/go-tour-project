@@ -1,47 +1,55 @@
 .service {
     padding: 20px;
     border-radius: 20px;
+    height: 620px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
 }
 
 .service img {
+    display: block;
+    margin: 0 auto 20px auto;
     width: 100%;
     border-radius: 20px;
-    margin-bottom: 10px;
 }
 
-.service h3 {
+.service-info h3 {
     font-size: 28px;
     font-weight: 600;
     text-align: center;
 }
 
-.service p {
+.service-info p {
     text-align: justify;
-
 }
 
-.service a {
-    background-color: #ff7c5b;
-    text-decoration: none;
-    border: 0;
-    padding: 10px 20px;
-    border-radius: 20px;
-    color: white;
+.service-price {
+    color: #ff7c5b;
+    font-size: 18px;
     font-weight: 600;
-}
-
-.service a:hover {
-    background-color: #061a3a;
 }
 
 .btn-icon {
     margin-left: 10px;
 }
 
-.service-price {
-    color: #ff7c5b;
+.service-btn {
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7c5b;
+    color: white;
+    font-size: 16px;
     font-weight: 600;
+    padding: 10px 20px;
+}
+
+.service-btn:hover {
+    background-color: #061a3a;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 567px) {

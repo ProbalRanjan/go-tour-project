@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import Loading from '../../Shared/Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
@@ -15,8 +16,9 @@ const Register = () => {
 
     const [
         createUserWithEmailAndPassword,
-        user
-    ] = useCreateUserWithEmailAndPassword(auth);
+        user,
+        loading
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
     const handleEmailBlur = event => {
         setEmail(event.target.value);
@@ -28,6 +30,10 @@ const Register = () => {
 
     const handleConfirmPasswordBlur = event => {
         setConfirmPassword(event.target.value);
+    }
+
+    if (loading) {
+        return <Loading></Loading>
     }
 
     const handleSignUp = event => {
@@ -59,9 +65,6 @@ const Register = () => {
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Email</Form.Label>
                         <Form.Control onBlur={handleEmailBlur} type="email" placeholder="Enter email" required />
-                        <Form.Text className="text-muted">
-                            We'll never share your email with anyone else.
-                        </Form.Text>
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -80,15 +83,17 @@ const Register = () => {
                         }
                     </p>
 
-                    <Button className='d-grid gap-2 col-4 mx-auto' type="submit">
-                        Sign Up
-                    </Button>
+                    <button className='submit-btn'>
+                        <p style={{ margin: '0' }}>Sign Up</p>
+                    </button>
 
                 </Form>
+
                 <div className='social-login'>
                     <p>Already have an account? <Link to='/login'>Sign In</Link></p>
                     <SocialLogin></SocialLogin>
                 </div>
+
             </div>
         </div>
     );
