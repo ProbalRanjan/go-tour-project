@@ -37,10 +37,12 @@ const RequireAuth = ({ children }) => {
                     padding: "10px 40px",
                     margin: "auto",
                 }}
-                onClick={async () => {
-                    await sendEmailVerification();
-                    toast('Sent email');
-                }}
+                onClick={
+                    async () => {
+                        await sendEmailVerification();
+                        toast('Sent email');
+                    }
+                }
             >
                 Verify your email
             </button>

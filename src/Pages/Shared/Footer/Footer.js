@@ -14,7 +14,7 @@ const Footer = () => {
         <div className='footer-section'>
             <div className='container footer-container'>
                 <div>
-                    <img className='footer-logo' src="images/logo-1.png" alt="" />
+                    <img className='footer-logo' src="images/logo-2.png" alt="" />
                     <p className='footer-info'>Go Tour is world most popular website to make a proper guide the tourist and travelers.</p>
                     <div className='footer-button'>
                         <button>

@@ -39,11 +39,11 @@ const Register = () => {
     const handleSignUp = event => {
         event.preventDefault();
         if (password !== confirmPassword) {
-            setError('Password not matched');
+            setError('Password did not matched');
             return;
         }
-        if (password.length < 6) {
-            setError('Password must be 6 characters');
+        if (password.length < 5) {
+            setError('Password must be 5 characters');
             return;
         }
         createUserWithEmailAndPassword(email, password);
