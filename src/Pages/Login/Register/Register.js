@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { Form } from 'react-bootstrap';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useSendEmailVerification } from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import Loading from '../../Shared/Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Register = () => {
 
@@ -20,6 +22,8 @@ const Register = () => {
         loading
     ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
+    const [sendEmailVerification, sending] = useSendEmailVerification(auth);
+
     const handleEmailBlur = event => {
         setEmail(event.target.value);
     }
@@ -32,7 +36,7 @@ const Register = () => {
         setConfirmPassword(event.target.value);
     }
 
-    if (loading) {
+    if (loading || sending) {
         return <Loading></Loading>
     }
 
@@ -77,11 +81,7 @@ const Register = () => {
                         <Form.Control onBlur={handleConfirmPasswordBlur} type="password" placeholder="Confirm Password" required />
                     </Form.Group>
 
-                    <p>
-                        {
-                            error
-                        }
-                    </p>
+                    <p>{error}</p>
 
                     <button className='submit-btn'>
                         <p style={{ margin: '0' }}>Sign Up</p>
@@ -93,6 +93,7 @@ const Register = () => {
                     <p>Already have an account? <Link to='/login'>Sign In</Link></p>
                     <SocialLogin></SocialLogin>
                 </div>
+                <ToastContainer />
 
             </div>
         </div>
